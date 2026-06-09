@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       {/* Nav */}
       <nav className="bg-white border-b px-6 py-4 flex items-center justify-between">
-        <span className="text-xl font-bold text-blue-800">Good Vessel · 良船事工</span>
+        <span className="text-xl font-bold text-blue-800">Good Vessel · 好器皿</span>
         <div className="flex gap-6 text-sm font-medium text-gray-600">
           <Link href="#about" className="hover:text-blue-700">About</Link>
           <Link href="#services" className="hover:text-blue-700">Services</Link>
@@ -21,9 +21,9 @@ export default function Home() {
 
       {/* Hero */}
       <section className="bg-blue-900 text-white flex flex-col items-center justify-center text-center px-6 py-24">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-4">Good Vessel · 良船事工</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4">Good Vessel · 好器皿</h1>
         <p className="text-blue-200 text-lg sm:text-xl max-w-2xl mb-8">
-          A non-profit ministry dedicated to serve non-profit small budget organizations with IT software services and AI modernization.
+          Dedicated to serve non-profit organizations with IT software services and AI modernization.
         </p>
         <div className="flex gap-4 flex-wrap justify-center">
           <Link
@@ -45,8 +45,8 @@ export default function Home() {
       <section id="about" className="py-16 px-6 max-w-4xl mx-auto w-full">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">About Us · 關於我們</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          Good Vessel is a non-profit ministry dedicated to serve non-profit small budget organizations
-          with IT software services and AI modernization. We believe that mission-driven organizations
+          Good Vessel 好器皿 is dedicated to serve non-profit organizations with IT software services
+          and AI modernization. We believe that mission-driven organizations
           should have access to the same quality technology tools as large enterprises — without the
           enterprise price tag.
         </p>
@@ -103,7 +103,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-blue-900 text-blue-200 text-sm text-center py-6 px-4 mt-auto">
-        © {new Date().getFullYear()} Good Vessel Ministry · 良船事工. All rights reserved.
+        © {new Date().getFullYear()} Good Vessel Ministry · 好器皿. All rights reserved.
       </footer>
     </div>
   );
