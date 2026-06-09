@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Good Vessel | 良船事工",
-  description: "Good Vessel is a non-profit ministry serving the Chinese Christian community through conferences, camps, and resources.",
+  description: "Good Vessel is a non-profit ministry dedicated to serve non-profit small budget organizations with IT software services and AI modernization.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

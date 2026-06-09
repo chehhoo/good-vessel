@@ -8,7 +8,7 @@ export default function Home() {
         <span className="text-xl font-bold text-blue-800">Good Vessel · 良船事工</span>
         <div className="flex gap-6 text-sm font-medium text-gray-600">
           <Link href="#about" className="hover:text-blue-700">About</Link>
-          <Link href="#events" className="hover:text-blue-700">Events</Link>
+          <Link href="#services" className="hover:text-blue-700">Services</Link>
           <Link href="#contact" className="hover:text-blue-700">Contact</Link>
           <Link
             href="https://conference.goodvessel.org"
@@ -23,14 +23,14 @@ export default function Home() {
       <section className="bg-blue-900 text-white flex flex-col items-center justify-center text-center px-6 py-24">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">Good Vessel · 良船事工</h1>
         <p className="text-blue-200 text-lg sm:text-xl max-w-2xl mb-8">
-          Serving the Chinese Christian community through conferences, camps, and spiritual formation.
+          A non-profit ministry dedicated to serve non-profit small budget organizations with IT software services and AI modernization.
         </p>
         <div className="flex gap-4 flex-wrap justify-center">
           <Link
-            href="#events"
+            href="#services"
             className="bg-white text-blue-900 font-semibold px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors"
           >
-            Upcoming Events
+            Our Services
           </Link>
           <Link
             href="#about"
@@ -44,30 +44,48 @@ export default function Home() {
       {/* About */}
       <section id="about" className="py-16 px-6 max-w-4xl mx-auto w-full">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">About Us · 關於我們</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          Good Vessel is a non-profit ministry dedicated to serve non-profit small budget organizations
+          with IT software services and AI modernization. We believe that mission-driven organizations
+          should have access to the same quality technology tools as large enterprises — without the
+          enterprise price tag.
+        </p>
         <p className="text-gray-600 leading-relaxed">
-          Good Vessel is a non-profit ministry dedicated to equipping and strengthening
-          Chinese Christian communities through annual conferences, youth camps, and
-          discipleship programs. We believe in building strong foundations of faith
-          through community, worship, and God&apos;s Word.
+          From conference management platforms to AI-assisted workflows, we build and maintain
+          software tailored to the real needs of churches, camps, and community organizations
+          operating on limited resources.
         </p>
       </section>
 
-      {/* Events */}
-      <section id="events" className="bg-gray-50 py-16 px-6">
+      {/* Services */}
+      <section id="services" className="bg-gray-50 py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Upcoming Events · 即將舉行</h2>
-          <div className="bg-white rounded-xl border p-6 shadow-sm">
-            <p className="text-sm font-semibold text-blue-700 mb-1">2026 Summer Conference</p>
-            <h3 className="text-lg font-bold text-gray-900 mb-2">Annual Church Camp · 年度退修會</h3>
-            <p className="text-gray-500 text-sm">
-              Details coming soon. Registered attendees can access the schedule and workshops below.
-            </p>
-            <Link
-              href="https://conference.goodvessel.org"
-              className="inline-block mt-4 bg-blue-700 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-800 transition-colors"
-            >
-              Attendee Portal →
-            </Link>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">What We Do · 我們的服務</h2>
+          <div className="grid sm:grid-cols-3 gap-6">
+            <div className="bg-white rounded-xl border p-6 shadow-sm">
+              <div className="text-blue-700 text-3xl mb-3">⚙️</div>
+              <h3 className="font-bold text-gray-900 mb-2">Custom Software</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Purpose-built web applications for conference registration, attendee management,
+                check-in, meal scanning, and reporting — designed for organizations with lean teams.
+              </p>
+            </div>
+            <div className="bg-white rounded-xl border p-6 shadow-sm">
+              <div className="text-blue-700 text-3xl mb-3">🤖</div>
+              <h3 className="font-bold text-gray-900 mb-2">AI Modernization</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Integrate AI tools into your existing workflows to save staff time, automate
+                repetitive tasks, and surface insights from your data — without a full IT department.
+              </p>
+            </div>
+            <div className="bg-white rounded-xl border p-6 shadow-sm">
+              <div className="text-blue-700 text-3xl mb-3">🏕️</div>
+              <h3 className="font-bold text-gray-900 mb-2">Conference Platform</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Our Good Camp platform manages camp and hotel conferences end-to-end: registration,
+                lodging, meals, sessions, payments, and volunteer scanning.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -76,7 +94,7 @@ export default function Home() {
       <section id="contact" className="py-16 px-6 max-w-4xl mx-auto w-full">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact · 聯絡我們</h2>
         <p className="text-gray-600">
-          For inquiries, please email us at{" "}
+          Interested in partnering with us or learning more about our services? Reach out at{" "}
           <a href="mailto:info@goodvessel.org" className="text-blue-700 hover:underline">
             info@goodvessel.org
           </a>
