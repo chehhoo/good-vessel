@@ -137,6 +137,10 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-blue-900 text-blue-200 text-sm text-center py-6 px-4 mt-auto">
+        <div className="mb-2 flex gap-4 justify-center">
+          <Link href="/terms" className="hover:text-white underline">Terms of Service</Link>
+          <Link href="/privacy" className="hover:text-white underline">Privacy Policy</Link>
+        </div>
         © {new Date().getFullYear()} Good Vessel Ministry · 好器皿. All rights reserved.
       </footer>
     </div>
