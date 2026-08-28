@@ -9,6 +9,7 @@ export default function Home() {
         <div className="flex gap-6 text-sm font-medium text-gray-600">
           <Link href="#about" className="hover:text-blue-700">About</Link>
           <Link href="#services" className="hover:text-blue-700">Services</Link>
+          <Link href="#platform" className="hover:text-blue-700">Platform</Link>
           <Link href="#contact" className="hover:text-blue-700">Contact</Link>
           <Link
             href="https://conference.goodvessel.org"
@@ -87,6 +88,39 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Conference Platform — public description of the service the toll-free
+          number sends sign-in codes for. Carrier review checks that the site
+          named on the registration corroborates the stated use case. */}
+      <section id="platform" className="py-16 px-6 max-w-4xl mx-auto w-full">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Conference Platform · 大會平台</h2>
+        <p className="text-gray-600 leading-relaxed mb-4">
+          We operate an event registration and attendee platform on behalf of the non-profit
+          organizations we serve. Attendees of a client organization&apos;s event register through
+          our platform, then use the attendee portal during the event to view the schedule, sign up
+          for sessions, check meal status, and scan in with a QR badge.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-6">
+          Attendees sign in with a one-time passcode rather than a password. Codes are delivered by
+          email. Attendees may also choose to receive them by SMS &mdash; that consent is collected
+          separately during registration, is never required in order to register, and can be
+          withdrawn at any time by replying STOP.
+        </p>
+        <div className="flex gap-4 flex-wrap">
+          <Link
+            href="https://register.goodvessel.org"
+            className="bg-blue-700 text-white font-semibold px-5 py-2.5 rounded-xl hover:bg-blue-800 transition-colors"
+          >
+            Event Registration
+          </Link>
+          <Link
+            href="https://conference.goodvessel.org"
+            className="border border-blue-700 text-blue-700 font-semibold px-5 py-2.5 rounded-xl hover:bg-blue-50 transition-colors"
+          >
+            Attendee Portal
+          </Link>
         </div>
       </section>
 
